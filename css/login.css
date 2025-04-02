@@ -1,0 +1,114 @@
+/* login.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000000, #00b3b3); /* Dark gradient background with teal accent */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.395); /* Black background with 50% opacity */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 600px; /* Adjust to your desired width, can also be in pixels like 600px */
+    height: 400px; /* Set your desired height */
+    margin: auto; /* Center the container horizontally */
+}
+
+
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 2px;
+}
+
+
+
+input[type="text"], input[type="password"] {
+    width: 300px; /* Adjust width as needed */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid rgb(207, 207, 207); /* White outline */
+    background: transparent; /* Transparent background */
+    color: white; /* Text color inside the input */
+    border-radius: 5px; /* Optional: Rounded corners */
+    outline: none; /* Remove the default outline */
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Light gray for placeholder text */
+     /* Optional: Makes placeholder text slightly distinctive */
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: #00b3b3; /* Change outline color when focused */
+}
+
+
+button {
+    width: 320px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #00b3b3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #008080; /* Darker teal on hover */
+}
+
+a {
+    color: #00b3b3;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #cccccc;
+}
+
+p {
+    margin-top: 10px; /* Moves the <p> tag down by 20px */ /* Adds space below the <p> tag */
+    text-align: center; /* Optional: Centers the text horizontally */
+}
+
+img {
+    margin-top: 60px; /* Moves the logo down by 20px */
+    margin-bottom: 10px; /* Adds space below the logo */
+    margin-left: auto; /* Centers the logo horizontally */
+    margin-right: auto; /* Centers the logo horizontally */
+    display: block; /* Ensures the image is treated like a block element for centering */
+    width: 40px; /* Adjust the size of the logo */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.top-left-logo {
+    position: absolute; /* Allows precise positioning */
+    top: -26px; /* Adjust to move the logo down from the top edge */
+    left: 40px; /* Adjust to move the logo away from the left edge */
+    width: 120px; /* Adjust size as needed */
+    height: auto; /* Maintains the aspect ratio */
+    z-index: 10; /* Ensures it appears above other elements */
+}
+
+
+
+

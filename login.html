@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+
+    <script>
+        function loginUser() {
+            let username = document.getElementById("login_username").value.trim();
+            let password = document.getElementById("login_password").value.trim();
+
+            if (!username || !password) {
+                alert("Please enter both username and password.");
+                return;
+            }
+
+            let formData = new FormData();
+            formData.append("username", username);
+            formData.append("password", password);
+
+            fetch("login.php", { 
+                method: "POST",
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    window.location.href = data.redirect; // Redirect based on role
+                } else {
+                    alert("Login failed: " + data.error);
+                }
+            })
+            .catch(error => alert("Error: Unable to connect to the server."));
+        }
+    </script>
+</head>
+<body>
+    <img src="asset/title.svg" alt="Title Logo" class="top-left-logo">
+
+    <div class="container">
+        <h1>Welcome Back</h1>
+
+        <input type="text" id="login_username" placeholder="Username"><br>
+        <input type="password" id="login_password" placeholder="Password"><br>
+        <button onclick="loginUser()">Login</button>
+        
+        <p>Don't have an account? <a href="register.html">Sign Up</a></p>
+        <img src="asset/logo.svg" alt="Company Logo" width="40">
+        
+        <div class="footer">
+            <a href="#">Terms of Use</a> | <a href="#">Privacy Policy</a>
+        </div>
+    </div>
+</body>
+</html>

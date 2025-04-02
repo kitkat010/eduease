@@ -1,0 +1,135 @@
+POST DATA: Array
+(
+    [username] => DEBBIE
+    [email] => deb@gmail.com
+    [password] => 12345
+    [first_name] => DEBBIE
+    [middle_name] => D
+    [last_name] => SEBASTIAN
+    [acad_rank] => Instructor I
+    [department] => Computer Science
+    [teacher_code_id] => TCH-08
+)
+
+FILES DATA: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => shoyo.png
+            [full_path] => shoyo.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\php712B.tmp
+            [error] => 0
+            [size] => 6001931
+        )
+
+)
+
+POST DATA: Array
+(
+    [username] => DEBBIE
+    [email] => deb@gmail.com
+    [password] => 12345
+    [first_name] => DEBBIE
+    [middle_name] => D
+    [last_name] => SEBASTIAN
+    [acad_rank] => Instructor I
+    [department] => Computer Science
+    [teacher_code_id] => TCH-08
+)
+
+FILES DATA: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => shoyo.png
+            [full_path] => shoyo.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpAECE.tmp
+            [error] => 0
+            [size] => 6001931
+        )
+
+)
+
+POST DATA: Array
+(
+    [username] => DEBBIE
+    [email] => deb@gmail.com
+    [password] => 12345
+    [first_name] => DEBBIE
+    [middle_name] => D
+    [last_name] => SEBASTIAN
+    [acad_rank] => Instructor I
+    [department] => Computer Science
+    [teacher_code_id] => TCH-08
+)
+
+FILES DATA: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => shoyo.png
+            [full_path] => shoyo.png
+            [type] => image/png
+            [tmp_name] => C:\xampp\tmp\phpC044.tmp
+            [error] => 0
+            [size] => 6001931
+        )
+
+)
+
+POST DATA: Array
+(
+    [username] => CATHY
+    [email] => cathy@gmail.com
+    [password] => 12345
+    [first_name] => CATHY
+    [middle_name] => C
+    [last_name] => CAT
+    [acad_rank] => Instructor I
+    [department] => Computer Science
+    [teacher_code_id] => TCH-112
+)
+
+FILES DATA: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => pic2.jpg
+            [full_path] => pic2.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\php946D.tmp
+            [error] => 0
+            [size] => 213024
+        )
+
+)
+
+POST DATA: Array
+(
+    [username] => CATHY
+    [email] => cathy@gmail.com
+    [password] => 12345
+    [first_name] => CATHY
+    [middle_name] => C
+    [last_name] => CAT
+    [acad_rank] => Instructor I
+    [department] => Computer Science
+    [teacher_code_id] => TCH-112
+)
+
+FILES DATA: Array
+(
+    [profile_picture] => Array
+        (
+            [name] => pic2.jpg
+            [full_path] => pic2.jpg
+            [type] => image/jpeg
+            [tmp_name] => C:\xampp\tmp\phpFF29.tmp
+            [error] => 0
+            [size] => 213024
+        )
+
+)
+
